@@ -1,0 +1,8 @@
+[package]
+name = "druid-example"
+version = "0.1.0"
+authors = ["Michael Mitteregger <michael.mitteregger@gmx.at>"]
+edition = "2018"
+
+[dependencies]
+druid = { git = "https://github.com/linebender/druid.git", branch = "check-env-changes" }
